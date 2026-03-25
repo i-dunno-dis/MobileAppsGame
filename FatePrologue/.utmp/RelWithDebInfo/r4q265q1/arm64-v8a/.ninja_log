@@ -1,0 +1,12 @@
+# ninja log v5
+86	529	7961418906559793	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	8e475dc0cc9226dc
+532	731	7961418908551575	C:/Users/1764092/repos/MobileAppsGame/FatePrologue/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/r4q265q1/obj/arm64-v8a/libswappywrapper.so	f4fa590829302a89
+30	1384	7961418915060641	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	b67a377461f070c7
+49	1390	7961418915075967	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	f84ca425a65c7fdd
+1	1410	7961418915304727	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	1662a0cb5f190482
+60	1427	7961418915498849	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1b8712d26c22e6e
+21	1485	7961418916069776	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	db4f44fb5aea377
+74	1652	7961418917790911	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	9ab199c6bc1fc78d
+40	1681	7961418918078550	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	64e706b69c34d131
+11	1792	7961418919169235	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	471226b9feda1af8
+1792	1900	7961418920282585	C:/Users/1764092/repos/MobileAppsGame/FatePrologue/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/r4q265q1/obj/arm64-v8a/libgame.so	55e79943966e77cd
