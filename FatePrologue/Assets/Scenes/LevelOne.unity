@@ -847,7 +847,7 @@ Transform:
   m_GameObject: {fileID: 660292422}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.69, y: -1.4439, z: 0}
+  m_LocalPosition: {x: 2.68, y: -1.4439, z: 0}
   m_LocalScale: {x: 142.44241, y: 4.566727, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1176,7 +1176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90498caff16875a43867c56ae1e73326, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 10
+  startingHealth: 3
 --- !u!1 &1292569848
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,7 +1360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.2, y: 0.3}
-  m_AnchoredPosition: {x: -100.00049, y: -57}
+  m_AnchoredPosition: {x: -100, y: -57}
   m_SizeDelta: {x: -300, y: -238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326935988
@@ -1502,7 +1502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049b9552a9fdf6c4fba774f93c917824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hazardDamage: 2
+  hazardDamage: 1
 --- !u!61 &1418089573
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47506e49a69796c4780341d8102dc7e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceStrength: 10
+  forceStrength: 5
   direction: {x: -1, y: 0}
 --- !u!1 &1515896772
 GameObject:
