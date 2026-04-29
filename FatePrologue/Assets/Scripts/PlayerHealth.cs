@@ -32,5 +32,10 @@ public class PlayerHealth : MonoBehaviour
             
         }
     }
+
+    public int GetHealth()
+    {
+        return currentHealth;
+    }
 }
     
