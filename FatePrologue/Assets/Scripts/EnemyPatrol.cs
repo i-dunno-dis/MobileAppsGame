@@ -35,7 +35,8 @@ public class EnemyPatrol : MonoBehaviour
             }
         }
 
-        Vector2 direction = patrolPoints[currentPoint] - (Vector2)transform.position.normalized;
-        ourRigidbody.AddForce(direction * forceStrength);
+        Vector2 direction = (patrolPoints[currentPoint] - (Vector2)transform.position).normalized;
+        ourRigidbody.linearVelocity = direction * forceStrength;
+        //ourRigidbody.AddForce(direction * forceStrength);
     }
 }
