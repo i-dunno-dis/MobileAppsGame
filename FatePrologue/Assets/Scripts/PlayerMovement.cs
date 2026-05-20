@@ -7,10 +7,12 @@ public class PlayerMovement: MonoBehaviour
     private Rigidbody2D physicsBody = null;
     public Collider2D groundSensor = null;
     public LayerMask groundLayer = 0;
+    
 
     private void Awake()
     {
         physicsBody = GetComponent<Rigidbody2D>();
+        
     }
 
     public void MoveLeft()
@@ -21,6 +23,8 @@ public class PlayerMovement: MonoBehaviour
     {
         physicsBody.linearVelocityX = speed;
     }
+
+
     public float jumpSpeed = 5;
     public void Jump()
     {
