@@ -26,7 +26,7 @@ public class PlayerMovement: MonoBehaviour
 
     private void Update()
     {
-        myAnimator.SetFloat("speed", physicsBody.linearVelocityX);
+        myAnimator.SetFloat("speed", Mathf.Abs(physicsBody.linearVelocityX));
     }
 
     public float jumpSpeed = 5;
