@@ -10,11 +10,13 @@ public class EnemyPatrol : MonoBehaviour
     private int currentPoint = 0;
     private Animator myAnimator = null;
     public float speed = 1f;
+    private SpriteRenderer mySpriteRenderer = null;
 
     private void Awake()
     {
         ourRigidbody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -49,6 +51,19 @@ public class EnemyPatrol : MonoBehaviour
 
         Vector2 direction = (patrolPoints[currentPoint] - (Vector2)transform.position).normalized;
         ourRigidbody.linearVelocity = direction * forceStrength;
+
+        if (ourRigidbody.linearVelocityX < 0f)
+        {
+            mySpriteRenderer.flipX = true;
+        }
+
+        else
+        {
+            mySpriteRenderer.flipX = false;
+        }
+
+
+
         //ourRigidbody.AddForce(direction * forceStrength);
     }
 }

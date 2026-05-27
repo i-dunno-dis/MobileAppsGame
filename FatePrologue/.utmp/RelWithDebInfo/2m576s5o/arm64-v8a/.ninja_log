@@ -1,0 +1,12 @@
+# ninja log v5
+57	567	8015822973881853	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	2e5493bcd685b1db
+568	718	8015822975372646	D:/Repos juniper/MobileAppsGame/FatePrologue/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2m576s5o/obj/arm64-v8a/libswappywrapper.so	dfbe232bb4993315
+22	8020	8015823048385216	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	bae34e9e1dc309e0
+28	8024	8015823048410354	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	581d4260bb69d64
+9	8038	8015823048591779	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	deadc51e1401bd38
+42	8042	8015823048621976	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	b692292f79d4a914
+16	8093	8015823049134515	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	308b766e63d9e10c
+34	8216	8015823050374298	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	aa03616f89f83310
+0	8294	8015823051125517	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	e2b24d2fc05076e6
+49	8386	8015823052051175	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	14a01d10a44787f9
+8386	8450	8015823052715746	D:/Repos juniper/MobileAppsGame/FatePrologue/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2m576s5o/obj/arm64-v8a/libgame.so	e5671d280a15f5e7
