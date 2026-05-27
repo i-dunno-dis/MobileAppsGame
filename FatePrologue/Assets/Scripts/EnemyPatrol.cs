@@ -8,10 +8,13 @@ public class EnemyPatrol : MonoBehaviour
     public float stopDistance;
     private Rigidbody2D ourRigidbody;
     private int currentPoint = 0;
+    private Animator myAnimator = null;
+    public float speed = 1f;
 
     private void Awake()
     {
         ourRigidbody = GetComponent<Rigidbody2D>();
+        myAnimator = GetComponent<Animator>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -19,6 +22,15 @@ public class EnemyPatrol : MonoBehaviour
     {
         
     }
+    public void LeftSquirm()
+    {
+        ourRigidbody.linearVelocityX = -speed;
+    }
+    public void RightSquirm()
+    {
+        ourRigidbody.linearVelocityX = speed;
+    }
+
 
     // Update is called once per frame
     void Update()
