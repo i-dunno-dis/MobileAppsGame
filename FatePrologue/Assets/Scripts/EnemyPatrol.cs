@@ -2,36 +2,23 @@ using UnityEngine;
 
 public class EnemyPatrol : MonoBehaviour
 {
-
+    //this initailises each variable before they can be used
     public float forceStrength;
     public Vector2[] patrolPoints;
     public float stopDistance;
     private Rigidbody2D ourRigidbody;
     private int currentPoint = 0;
-    private Animator myAnimator = null;
     public float speed = 1f;
     private SpriteRenderer mySpriteRenderer = null;
 
     private void Awake()
     {
+        //this fetches specific attributes from within the pogram so they can be used here
         ourRigidbody = GetComponent<Rigidbody2D>();
-        myAnimator = GetComponent<Animator>();
         mySpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-    public void LeftSquirm()
-    {
-        ourRigidbody.linearVelocityX = -speed;
-    }
-    public void RightSquirm()
-    {
-        ourRigidbody.linearVelocityX = speed;
-    }
+    
 
 
     // Update is called once per frame
