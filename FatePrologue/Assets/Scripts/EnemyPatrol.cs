@@ -53,6 +53,6 @@ public class EnemyPatrol : MonoBehaviour
 
 
 
-        //ourRigidbody.AddForce(direction * forceStrength);
+        
     }
 }
